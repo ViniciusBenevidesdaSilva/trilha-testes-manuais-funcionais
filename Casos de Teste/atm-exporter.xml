@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SWS</projectKey>
+    <exportDate>2023-10-15 21:19:51 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="104666315" key="SWS-T2" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 16:39:22 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio informar um username inv&aacute;lido, o sistema n&atilde;o permite o seu acesso ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[User_Test]]></defaultValue>
+                    <name><![CDATA[username]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[Password_Test]]></defaultValue>
+                    <name><![CDATA[password]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url https://www.saucedemo.com/v1/index.html]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>username</var> no campo 'username']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>username</var> ]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>password</var>&nbsp; no campo 'password']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>password</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Sistema emite um alerta informando que o usu&aacute;rio &eacute; inv&aacute;lido]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="104668208" key="SWS-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:18:37 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues>
+                <issue>
+                    <key>SWS-2</key>
+                    <summary><![CDATA[Como usuário, desejo acessar a página de login na loja virtual a fim de visualizar as opções de login, cadastro e redefinição de senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente navega por entre as telas de login e cadastro]]></name>
+            <objective><![CDATA[Verificar as fun&ccedil;&otilde;es de navegabilidade por entre as telas de login e cadastro]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em 'Sign Up'
+
+Then será redirecionado para uma tela de criação de nova conta]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668210" key="SWS-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:20:21 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues>
+                <issue>
+                    <key>SWS-2</key>
+                    <summary><![CDATA[Como usuário, desejo acessar a página de login na loja virtual a fim de visualizar as opções de login, cadastro e redefinição de senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente navega por entre as telas de login e Forgot your password]]></name>
+            <objective><![CDATA[Verificar as fun&ccedil;&otilde;es de navegabilidade por entre as telas de login e Forgot your password]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em 'Forgot your password'
+
+Then será redirecionado para uma tela de recuperação de senha]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668787" key="SWS-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:28:42 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente preenche os dados de cadastro corretamente]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio preencher os dados corretamente, seu cadastro ser&aacute; criado e ele direcionado &agrave; tela de login ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de cadastro
+
+And tenha preenchido corretamente o formulário
+
+When clicar em 'Sign Up'
+
+Then seu usuário será criado
+
+And ele será redirecionado para uma tela de login]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668789" key="SWS-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:30:35 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deixa campos em branco no cadastro]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio deixar algum campo em branco, o sistema n&atilde;o permitir a cria&ccedil;&atilde;o do usu&aacute;rio ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de cadastro
+
+And tenha deixado algum campo em branco
+
+When clicar em 'Sign Up'
+
+Then receberá um alerta sobre o campo pendente]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668793" key="SWS-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:32:04 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente informa um username ou e-mail já cadastrado]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio cadastrar um username ou e-mail j&aacute; existente, o sistema n&atilde;o permitir a cria&ccedil;&atilde;o do usu&aacute;rio ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de cadastro
+
+And tenha inserido um username ou e-mail já cadastrado
+
+When clicar em 'Sign Up'
+
+Then receberá um alerta]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668800" key="SWS-T8">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:33:05 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente informa senha com menos de 3 caracteres]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio cadastrar uma senha com menos que 3 caracteres, o sistema n&atilde;o permitir a cria&ccedil;&atilde;o de usu&aacute;rio ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de cadastro
+
+And tenha informado uma senha com menos de 3 caracteres
+
+When clicar em 'Sign Up'
+
+Then receberá um alerta sobre a quantidade de caracteres da senha]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668809" key="SWS-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:34:12 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente informar data de nascimento inválida]]></name>
+            <objective><![CDATA[Confirmar se, quando a data de nascimento for menor que a data atual, o sistema n&atilde;o permitir a cria&ccedil;&atilde;o do usu&aacute;rio]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de cadastro
+
+And tenha preenchido uma senha posterior a data atual
+
+When clicar em 'Sign Up'
+
+Then receberá um alerta]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="104668821" key="SWS-T10" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:41:16 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente com senha inválida tenta fazer login]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio informar uma senha inv&aacute;lida, o sistema n&atilde;o permite o seu acesso ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[User_Test]]></defaultValue>
+                    <name><![CDATA[username]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[Password_Test]]></defaultValue>
+                    <name><![CDATA[password]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url https://www.saucedemo.com/v1/index.html<br><br>]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>username</var> no campo 'username']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>username</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>password</var>  no campo 'password']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>password</var> ]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Sistema emite um alerta informando que a senha &eacute; inv&aacute;lida]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="104668828" key="SWS-T11" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vinícius Benevides da Silva</createdBy>
+            <createdOn>2023-10-15 17:43:31 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente com cadastro valido realiza login]]></name>
+            <objective><![CDATA[Confirmar se, quando o usu&aacute;rio preencher os dados corretamente, ele ser&aacute; autenticado e direcionado &agrave; tela principal ]]></objective>
+            <owner>712020:a1138c38-b5de-4e08-86ff-417d02526790</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[User_Test]]></defaultValue>
+                    <name><![CDATA[username]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[Password_Test]]></defaultValue>
+                    <name><![CDATA[password]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url https://www.saucedemo.com/v1/index.html]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>username</var> no campo 'username']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>username</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita <var>password</var>  no campo 'password']]></description>
+                        <expectedResult><![CDATA[Sistema aguarda pr&oacute;xima etapa]]></expectedResult>
+                        <testData><![CDATA[<var>password</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio clica no bot&atilde;o 'Login']]></description>
+                        <expectedResult><![CDATA[Direcionar usu&aacute;rio para url https://www.saucedemo.com/v1/inventory.html]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

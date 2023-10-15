@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SWS-2] Como usuário, desejo acessar a página de login na loja virtual a fim de visualizar as opções de login, cadastro e redefinição de senha</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://viniciusbenevides.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SWS-2]&nbsp;<a href="https://viniciusbenevides.atlassian.net/browse/SWS-2">Como usuário, desejo acessar a página de login na loja virtual a fim de visualizar as opções de login, cadastro e redefinição de senha</a>
+            <span class="subText">
+               Criado: 15/out/23                   &nbsp;Atualizado(a): 15/out/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Development</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projeto:</b></td>
+        <td width="80%"><a href="https://viniciusbenevides.atlassian.net/secure/BrowseProject.jspa?id=10001">SwagLabs Shopping</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões afetadas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões corrigidas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridade:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Relator:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                id="word_reporter_712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                href="https://viniciusbenevides.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa1138c38-b5de-4e08-86ff-417d02526790">
+                    Vinícius Benevides da Silva
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsável:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                id="word_assignee_712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                href="https://viniciusbenevides.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa1138c38-b5de-4e08-86ff-417d02526790">
+                    Vinícius Benevides da Silva
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolução:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Não resolvido(s)
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Categorias:</b>
+        </td>
+        <td id="labels-10001-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Nenhum
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ da estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            30 minutos
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            30 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ de Tempo Gasto:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tempo gasto:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Desconhecido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ da Estimativa Original:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            30 minutos
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimativa original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            30 minutes
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Anexos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://viniciusbenevides.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Arquivo JPEG">
+                    US_1.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Subtarefas:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Chave</b><br/>
+                </td>
+                <td>
+                    <b>Resumo</b><br/>
+                </td>
+                <td>
+                    <b>Tipo</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Responsável</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://viniciusbenevides.atlassian.net/browse/SWS-5">SWS-5</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://viniciusbenevides.atlassian.net/browse/SWS-5">Levtantamento e escrita de casos de t...</a>
+                    </td>
+                    <td>
+                        Subtarefa
+                    </td>
+                    <td>
+                        In Development
+                    </td>
+                    <td>
+                                                     Vinícius Benevides da Silva  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://viniciusbenevides.atlassian.net/browse/SWS-6">SWS-6</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://viniciusbenevides.atlassian.net/browse/SWS-6">Execução de testes manuais</a>
+                    </td>
+                    <td>
+                        Subtarefa
+                    </td>
+                    <td>
+                        Tarefas pendentes
+                    </td>
+                    <td>
+                                                     Vinícius Benevides da Silva  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10001-value" class="value" bgcolor="#ffffff" width="80%">      0|i00007:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10001-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story point estimate:</b></td>
+                <td id="customfield_10016-10001-value" class="value" bgcolor="#ffffff" width="80%">    8
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descrição</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1. Valor:</b> </p>
+
+<p>       A autenticação de usuários na loja virtual é importante para que os clientes possam se cadastrar na plataforma com segurança e fazer pedidos. Essa funcionalidade visa unificar o fluxo de acesso ao site, permitindo que o usuário possa se cadastrar, fazer login ou redefinir a senha na loja virtual.</p>
+
+<p><b>2. Narrativa do usuário:</b></p>
+
+<p>       <b>Como</b> cliente</p>
+
+<p>       <b>Eu quero</b> acessar a página de login do usuário</p>
+
+<p>       <b>Para</b> visualizar opções de login, cadastro e redefinição de senha na loja virtual</p>
+
+<p><b>3. Requisitos:</b></p>
+
+<ul>
+	<li>Atores: Cliente</li>
+	<li>Interfaces: Ver documento anexo da UI/UX</li>
+	<li>Dados
+	<ul>
+		<li>Criação de banco de dados para armazenar informações dos clientes cadastrados</li>
+		<li>Criação de API para integração com front-end e banco criado</li>
+		<li>Criação de tela de acesso para permitir que o usuário acesse página de login, página de cadastro do usuário e página de redefinição de senha.</li>
+	</ul>
+	</li>
+	<li>Plataforma/Ambiente:
+	<ul>
+		<li>Web / Web Mobile</li>
+		<li>Devem ser configurados ambientes e pipelines para desenvolvimento, homologação de usuário, homologação QA e produção.</li>
+	</ul>
+	</li>
+	<li>Critério de Aceite:
+	<ul>
+		<li>Usuário deverá visualizar formulário para fazer login e entrar na loja virtual.</li>
+		<li>Usuário deverá visualizar botão para acessar tela de cadastro do sistema.</li>
+		<li>Usuário deverá visualizar botão para acessar tela “Esqueci minha senha”.</li>
+	</ul>
+	</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Gerado em Sun Oct 15 21:20:06 UTC 2023 por Vinícius Benevides da Silva usando JIRA 1001.0.0-SNAPSHOT#100238-sha1:a5bd220dd233d6acf65fadffb1c24624314449af.
+
+</body>
+</html>

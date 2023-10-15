@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SWS-3] Como usuário, desejo preencher o formulário para criação de conta na loja virtual, a fim de criar o meu cadastro de acesso</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://viniciusbenevides.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SWS-3]&nbsp;<a href="https://viniciusbenevides.atlassian.net/browse/SWS-3">Como usuário, desejo preencher o formulário para criação de conta na loja virtual, a fim de criar o meu cadastro de acesso</a>
+            <span class="subText">
+               Criado: 15/out/23                   &nbsp;Atualizado(a): 15/out/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Tarefas pendentes</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projeto:</b></td>
+        <td width="80%"><a href="https://viniciusbenevides.atlassian.net/secure/BrowseProject.jspa?id=10001">SwagLabs Shopping</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões afetadas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões corrigidas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Historia
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridade:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Relator:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                id="word_reporter_712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                href="https://viniciusbenevides.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa1138c38-b5de-4e08-86ff-417d02526790">
+                    Vinícius Benevides da Silva
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsável:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                id="word_assignee_712020:a1138c38-b5de-4e08-86ff-417d02526790"
+                href="https://viniciusbenevides.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aa1138c38-b5de-4e08-86ff-417d02526790">
+                    Vinícius Benevides da Silva
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolução:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Não resolvido(s)
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Categorias:</b>
+        </td>
+        <td id="labels-10002-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Nenhum
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tempo gasto:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimativa original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Anexos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://viniciusbenevides.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Arquivo JPEG">
+                    US_2.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Links de itens:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://viniciusbenevides.atlassian.net/browse/SWS-10">
+                     SWS-10                 </a>
+            </td>
+            <td>
+                US_2 - Cadastro de usuário
+            </td>
+            <td>
+                Tarefas pendentes
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10002-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000f:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10002-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descrição</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1. Valor:</b></p>
+
+<p>       O processo de criação de novas contas de usuário na loja virtual é essencial para a captação e acesso de novos clientes. Com essa funcionalidade, novos clientes que desejam acessar e visualizar os produtos da loja virtual poderão passar suas informações básicas e fazer posteriormente seu login.</p>
+
+<p><b>2. Narrativa do usuário:</b></p>
+
+<p>       <b>Como</b> cliente</p>
+
+<p>       <b>Eu quero</b> preencher o formulário para criação de conta</p>
+
+<p>       <b>Para</b> criar meu acesso à loja virtual</p>
+
+<p><b>3. Requisitos:</b></p>
+
+<ul>
+	<li>Atores: Cliente</li>
+	<li>Interfaces: Ver documento anexo da UI/UX</li>
+	<li>Dados
+	<ul>
+		<li>Criação de banco de dados para armazenar informações dos clientes cadastrados</li>
+		<li>Criação de API para integração com front-end e banco criado</li>
+		<li>Criação de tela de cadastro que possuirá o formulário com os campos Username, Full name, birthday, e-mail, password e confirm password, al´me do botão de “sign up”.</li>
+	</ul>
+	</li>
+	<li>Plataforma/Ambiente:
+	<ul>
+		<li>Web / Web Mobile</li>
+		<li>Devem ser configurados ambientes e pipelines para desenvolvimento, homologação de usuário, homologação QA e produção.</li>
+	</ul>
+	</li>
+	<li>Critério de Aceite:
+	<ul>
+		<li>Usuário deverá visualizar o formulário de criação de conta.</li>
+		<li>Todos os campos serão de preenchimento obrigatório.</li>
+		<li>Se a data de nascimento for maior que a data atual, será emitido um alerta de “Data inválida“.</li>
+		<li>Caso o Username já tenham sido cadastrados por outro usuário, será emitido um alerta de “Username já cadastrado“.</li>
+		<li>Caso o E-mail já tenham sido cadastrados por outro usuário, será emitido um alerta de “E-mail já cadastrado“.</li>
+		<li>A senha deverá ter no mínimo 3 caracteres.</li>
+		<li>Caso as senhas digitadas em Password e Confirm Password estejam diferentes, o sistema deverá emitir um alerta “Senhas diferentes“.</li>
+		<li>Caso um alerta seja emitido, os campos já preenchidos pelo usuário não poderão ser perdidos.</li>
+		<li>Ao clicar em Sign Up, e estando as validações todas corretas, o sistema cadastrará as informações fornecidas no banco, exibirá uma mensagem de confirmação de sucesso e redirecionará o usuário para a tela de login.</li>
+		<li>Caso ocorra alguma falha de comunicação com o banco ou servidor, o sistema exibirá uma mensagem de erro.</li>
+	</ul>
+	</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Gerado em Sun Oct 15 21:20:12 UTC 2023 por Vinícius Benevides da Silva usando JIRA 1001.0.0-SNAPSHOT#100238-sha1:a5bd220dd233d6acf65fadffb1c24624314449af.
+
+</body>
+</html>
